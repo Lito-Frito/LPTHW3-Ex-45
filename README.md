@@ -16,14 +16,17 @@ Python 3.x, PlaySound
 
 ### Installing
 
+#### Python
+
 Go here to get Python up and running on your machine:
 https://tutorial.djangogirls.org/en/installation/#pythonanywhere\
 
-Click on 'Install Python' for whatever your operating system is.
+Click on 'Install Python' for whatever your operating system is. Example:
 
 ```
 Install Python: Windows
 ```
+#### PlaySound
 
 Go here to install PlaySound (this is a simple library that plays audio for the game):
 https://pypi.org/project/playsound/
@@ -31,7 +34,7 @@ https://pypi.org/project/playsound/
 It'll tell you to run this command in your terminal:
 
 ```
-pip install playsound
+pip3 install playsound
 ```
 Then download the Game Files folder and all its contents.
 
