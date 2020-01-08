@@ -428,7 +428,7 @@ class AOT(Scene):
                 input()
                 print(dedent("""
                     You also see a pair of distinctive looking swords.
-                    You think they look cool.
+                    You think they look cool!
                     You decide to grab them as well."""))
 
                 input()
