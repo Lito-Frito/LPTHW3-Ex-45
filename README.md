@@ -11,7 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
 You'll need these things to run the game:
 
 ```
-Python 3.x, PlaySound
+Python 3.x, PlaySound, .WAV files for the game (in Game Files)
 ```
 
 ### Installing
@@ -36,7 +36,30 @@ It'll tell you to run this command in your terminal:
 ```
 pip3 install playsound
 ```
-Then download the Game Files folder and all its contents.
+
+Or, download Game Files and then type the following command:
+
+```
+pip install -r requirements.txt
+```
+
+That will install PlaySound for you in either a global or virtual environment
+
+If you download this library in your global environment, this game will work just fine.
+
+If you do it in a virtual environment, you'll get an error that there's no 'gi' module. This has to do with where gi in installed in your global environment (usually usr/lib/python3/dist-packages/gi) compared to the particular python version you're using. When you create a virtual environment, you don't get all the packages in usr/lib/python3/dist-packages/. To fix this, just type the following command in your terminal when in your virtual envronment:
+
+```
+ln -s /usr/lib/python3/dist-packages/gi /home/'your user name'/'the game files you downloaded'/'your virtual environment'/lib/python3.6/site-packages/
+```
+
+It should work after that. See these two links below if you need more help or reach out to me if you need to:
+https://github.com/TaylorSMarks/playsound/issues/24
+https://stackoverflow.com/questions/37526026/how-to-install-gi-module-for-anaconda-python3
+
+#### .WAV Files
+
+All .wav files are in the Game Files folder. Download it with all of its contents so the game can run smoothly. Read on in the deployment section to get the game going.
 
 ## Deployment
 
