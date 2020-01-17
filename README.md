@@ -11,7 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
 You'll need these things to run the game:
 
 ```
-Python 3.x, PlaySound, .WAV files for the game (in Game Files)
+Python 3.x, PlaySound, .WAV files for the game (in game/)
 ```
 
 ### Installing
@@ -37,7 +37,7 @@ It'll tell you to run this command in your terminal:
 pip3 install playsound
 ```
 
-Or, download Game Files and then type the following command:
+Or, download game/ and then type the following command:
 
 ```
 pip install -r requirements.txt
@@ -59,11 +59,11 @@ https://stackoverflow.com/questions/37526026/how-to-install-gi-module-for-anacon
 
 #### .WAV Files
 
-All .wav files are in the Game Files folder. Download it with all of its contents so the game can run smoothly. Read on in the deployment section to get the game going.
+All .wav files are in the game/ folder. Download it with all of its contents so the game can run smoothly. Read on in the deployment section to get the game going.
 
 ## Deployment
 
-When you download everything from above, open the folder 'Game Files' on your computer. Then open a terminal from that directory. Then type the following:
+When you download everything from above, open the folder 'game/' on your computer. Then open a terminal from that directory. Then type the following:
 
 ```
 python3 ex45.py
