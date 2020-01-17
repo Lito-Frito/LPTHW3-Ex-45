@@ -55,6 +55,7 @@ ln -s /usr/lib/python3/dist-packages/gi /home/'your user name'/'the game files y
 
 It should work after that. See these two links below if you need more help or reach out to me if you need to:
 https://github.com/TaylorSMarks/playsound/issues/24
+
 https://stackoverflow.com/questions/37526026/how-to-install-gi-module-for-anaconda-python3
 
 #### .WAV Files
@@ -69,3 +70,10 @@ When you download everything from above, open the folder 'game/' on your compute
 python3 ex45.py
 ```
 And that's it! The game should run. Have fun and feel free to reach out if there's any bugs.
+
+
+## Acknowledgments
+
+* TaylorSMarks for the PlaySound library; you're a real one 
+* jovalle for helping fix a bug with using PlaySound in a dir whose name has spaces in it
+* Zed Shaw for making LPTHW; you're 80% of why I'll get a job as an engineer one day
