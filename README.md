@@ -41,6 +41,6 @@ https://stackoverflow.com/questions/37526026/how-to-install-gi-module-for-anacon
 
 ## Acknowledgments
 
-* @TaylorSMarks for the PlaySound library; you're a real one
-* @jovalle for helping fix a bug with using PlaySound in a dir whose name has spaces in it
-* Zed Shaw for making LPTHW; you're 60% of why I'll get a job as an engineer one day
+@TaylorSMarks for the PlaySound library; you're a real one
+@jovalle for helping fix a bug with using PlaySound in a dir whose name has spaces in it
+Zed Shaw for making LPTHW; you're 60% of why I'll get a job as an engineer one day
